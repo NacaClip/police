@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefixe = '!';
 
-client.login('ODUyODU4OTE4MTY1NDEzOTE4.YMM8ww.0bdXmcJFTtrXg4uXQLqmuUWkOFc');
+client.login(process.env.TOKEN);
  /*************************/  ///ODUyODU4OTE4MTY1NDEzOTE4.YMM8ww.0bdXmcJFTtrXg4uXQLqmuUWkOFc
  /*   Commande de Statu   */
  /*************************/
